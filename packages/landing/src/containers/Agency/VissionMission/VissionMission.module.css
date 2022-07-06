@@ -1,0 +1,37 @@
+.sectionTitle {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 50px 30px;
+    grid-gap: 20px;
+    place-items: center;
+
+}
+
+.main p {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.main .colLeft,
+.main .colRight{
+    width: 60%;
+}
+@media (max-width:990px) {
+    .main {
+        grid-template-columns: repeat(2, 50%);
+        text-align: center;
+    }
+
+}
+@media (max-width:795px) {
+    .main {
+        grid-template-columns: repeat(1, 100%);
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,30 @@
+
+.main_parent_caresoul {
+    /* padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1170px !important; */
+    /* place-items: center; */
+}
+
+.caru {
+    display: grid !important;
+    grid-template-columns: 450px 1fr;
+    margin: 20px 0;
+    padding: 0 40px;
+    grid-gap: 20px;
+    place-items: center;
+    
+}
+
+.ssliderTwo{
+    padding: 0 40px 0 60px;
+}
+
+@media only screen and (max-width: 950px){
+    .caru { 
+            grid-template-columns: repeat(1, 1fr);
+        }
+    .innerDetails{
+            text-align: center;
+        }
+}
