@@ -8,6 +8,8 @@
     margin: 50px 30px;
     grid-gap: 20px;
     place-items: center;
+    padding: 0 250px;
+
 }
 .main .colleft p {
     font-size: 16px;

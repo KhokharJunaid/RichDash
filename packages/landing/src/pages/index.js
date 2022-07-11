@@ -49,32 +49,21 @@ const Main = () => {
         <GlobalStyle />
         {/* End of agency head section */}
         {/* Start agency wrapper section */}
-        <AgencyWrapper>
+        <AgencyWrapper  >
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
           </Sticky>
-          {/* <BannerSection /> */}
           <MyHome />
           <FeatureSection />
           <VideoSection />
-
-          {/* <AboutUsSection /> */}
-          {/* <WorkHistory /> */}
-          {/* <BlogSection /> */}
-          {/* <QualitySection /> */}
-
           <CarouselSection />
           <CarouselSection2 />
           <AAboutUs />
           <VissionMission />
           <RoadMap />
           <FeaturedPartners />
-          {/* <TestimonialSection /> */}
-          {/* <TeamSection /> */}
-          {/* <FaqSection /> */}
-          {/* <NewsletterSection /> */}
           <EmailSection />
           <Footer />
         </AgencyWrapper>

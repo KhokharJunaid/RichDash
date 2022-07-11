@@ -1,5 +1,5 @@
 .sectionTitle {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -8,7 +8,11 @@
     grid-template-columns: repeat(2, 50%);
     margin: 113px -40px;
     grid-gap: 20px;
-    place-items: center;
+    place-items: center; 
+    min-width:1200px ;
+    width: 100%;
+    padding: 0 250px;
+
 }
 
 .main .colleft p {
@@ -27,3 +31,6 @@
     }
 
 }
+
+ 
+

@@ -16,7 +16,8 @@
     margin-left: 10px;
 }
 .main{
-    width: 100%;
+    width: 100%;    
+    padding: 0 280px;
 }
 .card h2{
     margin-bottom: 15px;

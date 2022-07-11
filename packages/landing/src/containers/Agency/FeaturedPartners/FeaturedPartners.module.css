@@ -1,5 +1,6 @@
 .mainDiv{
-    margin: 60px 40px;
+    margin: 60px 40px;    
+    padding: 0 280px;
 }
 .innerPart{
     text-align: center;
